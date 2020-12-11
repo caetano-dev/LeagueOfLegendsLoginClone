@@ -3,6 +3,7 @@
     <div class="container">
     <Nickname/>
     <Play/>
+    <Footer/>
     </div>
   </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import Nickname from './components/Nickname.vue'
 import Play from './components/Play.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Nickname,
-    Play
+    Play,
+    Footer
   }
 }
 </script>
