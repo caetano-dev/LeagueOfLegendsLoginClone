@@ -1,12 +1,5 @@
 <template>
   <div class="Main">
-    <div class="ImageContainer">
-      <img
-        class="Exclamation"
-        src="../assets/exclamation.svg"
-        alt="Exclamation"
-      />
-    </div>
     <div class="TextContainer">
       <div class="MainText">
         <h1 class="Play">PLAY</h1>
@@ -27,10 +20,6 @@ export default {
   display: flex;
   padding-top: 0.5rem;
 }
-.Exclamation {
-  width: 3rem;
-  margin-left: -0.3rem;
-}
 .TextContainer {
   display: flex;
   justify-content: center;
@@ -46,7 +35,7 @@ export default {
 .Play {
   font-size: 18rem;
   color: white;
-  letter-spacing: -1rem;
+  letter-spacing: -0.4rem;
 }
 h1:hover {
   color: #1dcdda;
