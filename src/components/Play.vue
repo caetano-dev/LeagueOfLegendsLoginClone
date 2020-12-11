@@ -9,7 +9,7 @@
     </div>
     <div class="TextContainer">
       <div class="MainText">
-        <h1 class="Play">JOGAR</h1>
+        <h1 class="Play">PLAY</h1>
       </div>
       <img class="PlayIcon" src="../assets/play.svg" alt="PlayIcon" />
     </div>
