@@ -4,7 +4,7 @@
       <div class="MainText">
         <h1 class="Play">PLAY</h1>
       </div>
-      <img class="PlayIcon" src="../assets/play.svg" alt="PlayIcon" />
+      <img class="PlayIcon" src="../assets/play.png" alt="PlayIcon" />
     </div>
   </div>
 </template>
@@ -18,7 +18,8 @@ export default {
 <style scoped>
 .Main {
   display: flex;
-  padding-top: 0.5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 .TextContainer {
   display: flex;
