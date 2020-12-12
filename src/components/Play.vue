@@ -2,7 +2,7 @@
   <div class="Main">
     <div class="TextContainer">
       <div class="MainText">
-        <h1 class="Play">PLAY</h1>
+          <router-link tag="h1" class="Play" to="/login">PLAY</router-link>
       </div>
       <img class="PlayIcon" src="../assets/play.png" alt="PlayIcon" />
     </div>
@@ -16,6 +16,7 @@ export default {
 </script>
 
 <style scoped>
+
 .Main {
   display: flex;
   padding-top: 7rem;
@@ -32,13 +33,12 @@ export default {
   justify-content: center;
   text-align: center;
 }
-
 .Play {
   font-size: 18rem;
   color: white;
   letter-spacing: -0.4rem;
 }
-h1:hover {
+.Play:hover {
   color: #1dcdda;
 }
 .PlayIcon {
