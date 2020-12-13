@@ -18,9 +18,8 @@ export default {
 <style scoped>
 
 .Main {
-  display: flex;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  
 }
 .TextContainer {
   display: flex;
@@ -34,7 +33,7 @@ export default {
   text-align: center;
 }
 .Play {
-  font-size: 18rem;
+  font-size: 10rem;
   color: white;
   letter-spacing: -0.4rem;
 }
@@ -42,7 +41,7 @@ export default {
   color: #1dcdda;
 }
 .PlayIcon {
-  height: 15rem;
+  height: 7.5rem;
   padding-left: 1rem;
 }
 </style>

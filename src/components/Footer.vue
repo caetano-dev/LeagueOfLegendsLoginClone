@@ -17,19 +17,19 @@ export default {
 
 <style scoped>
 .LogoContainer{
-  margin-top: 2rem;
+  margin-top: 4.5rem;
 }
 .LogoGroup{
   display: flex;
   align-items: center;
 }
 .Lol{
-  width: 15rem;
+  width: 10rem;
   border-left: 0.1rem solid #b4b4b4be;
   
 }
 .Riot{
-  width: 5rem;
+  width: 3rem;
   margin-right: 0.5rem
 }
 

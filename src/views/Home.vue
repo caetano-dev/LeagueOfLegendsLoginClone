@@ -32,14 +32,12 @@ export default {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
-html {
+.container {
   background: linear-gradient(rgba(22, 22, 22, 0.76), rgba(22, 22, 22, 0.76)),
     url("../assets/Login_image.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-}
-.container {
-  margin: 3rem;
+  padding: 3rem;
 }
 </style>
