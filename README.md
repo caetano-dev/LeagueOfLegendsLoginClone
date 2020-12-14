@@ -2,11 +2,11 @@
 
 A clone of the League of Legends client login screen from version 20.31.2.
 
-# home
+# Home
 
 ![Home](./.github/home.png)
 
-# login
+# Login
 
 ![Login](./.github/login.png)
 
