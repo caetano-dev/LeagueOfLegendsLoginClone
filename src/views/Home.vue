@@ -38,6 +38,6 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding: 3rem;
+  padding: 3.3rem;
 }
 </style>
