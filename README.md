@@ -1,6 +1,14 @@
 # League of Legends login screen clone
 
-Work in progress
+A clone of the League of Legends client login screen from version 20.31.2.
+
+# home
+
+![Home](./.github/home.png)
+
+# login
+
+![Login](./.github/login.png)
 
 ## Project setup
 
