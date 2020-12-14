@@ -1,6 +1,6 @@
 <template>
   <div class="Container">
-    <Sidebar/>
+    <Sidebar />
   </div>
 </template>
 
@@ -24,9 +24,10 @@ export default {
   font-family: "Poppins", sans-serif;
 }
 .Container {
-  background:url("../assets/Login_image.jpg");
+  background: linear-gradient(rgba(61, 82, 81, 0.137), rgba(61, 82, 81, 0.137)),
+    url("../assets/Login_image.jpg");
   background-size: cover;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-position: center;
 }
 </style>
