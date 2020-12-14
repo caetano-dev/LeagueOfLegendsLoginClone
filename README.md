@@ -1,6 +1,7 @@
 # League of Legends login screen clone
 
-A clone of the League of Legends client login screen from version 20.31.2.
+Login screen from version 20.31.2.
+Built with [Electron.js](https://www.electronjs.org/)
 
 # Home
 
@@ -19,7 +20,7 @@ yarn install
 ### Compiles and hot-reloads for development
 
 ```
-yarn serve
+yarn electron:serve
 ```
 
 ### Compiles and minifies for production
