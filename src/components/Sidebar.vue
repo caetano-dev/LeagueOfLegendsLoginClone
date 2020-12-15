@@ -88,19 +88,21 @@ p {
 .Logo {
   width: 2rem;
 }
-.ImageContainer {
+.LoginText,
+.ImageContainer,
+.InputContainer,
+.FacebookContainer,
+.GoogleContainer,
+.AppleContainer,
+.Button {
   display: flex;
   justify-content: center;
+}
+.ImageContainer {
   padding-bottom: 2.5rem;
 }
-.LoginText {
-  display: flex;
-  justify-content: center;
-}
 .InputContainer {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .SocialMedia {
   margin-top: 1.5rem;
@@ -118,16 +120,13 @@ p {
 .FacebookContainer,
 .GoogleContainer,
 .AppleContainer {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 4.4rem;
+  width: 4.9rem;
   border-radius: 0.2rem;
   cursor: pointer;
 }
 .FacebookContainer {
   background-color: #387df5;
-  padding-right: 0.5rem;
 }
 .FacebookContainer:hover {
   background: #316fd8;
@@ -172,8 +171,6 @@ span {
 }
 .Button {
   width: 100%;
-  display: flex;
-  justify-content: center;
   padding: 0rem 0rem 3.3rem 0rem;
 }
 .ButtonText {
