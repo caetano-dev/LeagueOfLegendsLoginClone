@@ -8,7 +8,7 @@
         <p>Sign in</p>
       </div>
       <input placeholder="USERNAME" />
-      <input v-model="characters" placeholder="PASSWORD" />
+      <input type="password" v-model="characters" placeholder="PASSWORD" />
     </div>
     <div class="SocialMedia">
       <div class="FacebookContainer">
