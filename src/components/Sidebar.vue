@@ -164,10 +164,12 @@ span {
   border-radius: 1rem;
   width: 3rem;
   padding: 0.7rem;
+  cursor: pointer;
 }
 .RedButton {
   background-color: rgb(230, 62, 62);
   border: rgb(230, 62, 62);
+  cursor: pointer;
 }
 .Button {
   width: 100%;
